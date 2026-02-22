@@ -40,6 +40,7 @@ body {
 }
 .menu {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -119,6 +120,7 @@ body {
 
 .cantantedescripcion {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -132,8 +134,10 @@ body {
 
 .piepagina {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px ;
     background-color: darkslategray;
     width: 100%;
+
 }
